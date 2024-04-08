@@ -1,0 +1,30 @@
+.taitoru{
+    color: rgb(53, 216, 162);
+    font-size: large;
+}
+
+
+.haikei{
+    background-color: rgb(218, 249, 253);
+}
+
+.box{
+    width: 600px;
+    height: 850px;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(218, 218, 218);
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+.textbox{
+    border: 2px solid;
+    border-radius: 4px 4px 4px 4px;
+    border-color: rgb(220, 219, 219);
+    box-shadow: 1px 1px 1px rgb(204, 204, 204);
+    width: 550px;
+    padding: 5px;
+    
+}
