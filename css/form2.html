@@ -13,39 +13,39 @@
 
     <center class="taitoru">アンケート</center>
 
-    <hr size="3px" color="#4169e1">
-
-    
+        <hr size="3px" color="#4169e1">
 
     <div class="box">
         <p>AxiZの研修をご利用いただき、誠にありがとうございます。
         <br>以下の内容の記入及び送信をして頂けると幸いです。
         </p>
 
-        <p>会社名
+        <p><span class="hissu" >会社名</span>
 
-            <input class="textbox" type="text" neme="name" placeholder="例)株式会社テクノコア">
+            <input class="textbox" type="text" neme="name" placeholder="例)株式会社テクノコア" required>
         </p>
-        <p>お名前
 
-            <input class="textbox" type="text" neme="name" placeholder="例)手久野  興亜">
+        <p><span class="hissu">お名前</span>
+
+            <input class="textbox" type="text" neme="name" placeholder="例)手久野  興亜" required>
         </p>
+
         <p>メールアドレス
 
             <input class="textbox" type="text" neme="name" placeholder="例)example@axiz.co.jp">
         </p>
         <p>年齢
+            <br>
+            <input type="text" class="nennrei" name="name" value="23">
 
 
         </p>
         <p>受講コース
-            
+
             <br>
-            <input type="radio" name="ko-su" value="java"  checked>Java
-            <input type="radio" name="ko-su" value="infura" >インフラ
+            <label><input type="radio" name="ko-su" value="java"  checked>Java</label>
+            <label><input type="radio" name="ko-su" value="infura" >インフラ</label>
            
-
-
         </p>
         <p>会場
             <br>
@@ -53,6 +53,8 @@
 
                 <option value="nihonnbasiA" selected>日本橋A教室</option>
                 <option value="okinawa" >沖縄教室</option>
+                <option value="tokyo" >東京教室</option>
+                <option value="oosaka" >大阪教室</option>
 
             </select>
 
@@ -61,24 +63,25 @@
         <p>詳しく学びたい内容（複数回答可）
 
             <br>
-            <input type="checkbox" name="text" value="ビジネスマナー">ビジネスマナー
+            <label><input type="checkbox" name="text" value="ビジネスマナー">ビジネスマナー</label>
             <br>
-            <input type="checkbox" name="text" value="ビジネスマナー">HTML/CSS
+            <label><input type="checkbox" name="text" value="ビジネスマナー">HTML/CSS</label>
             <br>
-            <input type="checkbox" name="text" value="ビジネスマナー">JavaScript
+            <label><input type="checkbox" name="text" value="ビジネスマナー">JavaScript</label>
             <br>
-            <input type="checkbox" name="text" value="ビジネスマナー">Java
+            <label><input type="checkbox" name="text" value="ビジネスマナー">Java</label>
             <br>
-            <input type="checkbox" name="text" value="ビジネスマナー">データベース
+            <label><input type="checkbox" name="text" value="ビジネスマナー">データベース</label>
             <br>
-            <input type="checkbox" name="text" value="ビジネスマナー">Linux
+            <label><input type="checkbox" name="text" value="ビジネスマナー">Linux</label>
 
 
 
         </p>
         <p>ご意見
 
-            <br><textarea name="free" rows="10" cols="75"></textarea>
+            <br><textarea name="free" class="goiken" rows="10" cols="75">自由にご記入ください。
+            </textarea>
 
 
         </p>
@@ -88,17 +91,7 @@
 
     </div>
 
-    
-
-
-
-
-
-
-
     <hr size="3px" color="#4169e1">
-
-
 
     </body>
 </html>
